@@ -1,0 +1,47 @@
+.services-heading {
+    margin-bottom: 20px;
+}
+
+.card-content {
+    font-size: 1.1rem;
+    position: relative;
+    padding: 16px;
+}
+
+.card-content .MuiTypography-root {
+    margin-bottom: 10px;
+}
+
+
+.status {
+    color: orange;
+}
+
+@media (max-width: 600px) {
+    .card-content {
+        font-size: 1rem;
+    }
+}
+
+
+.card-content .MuiButton-root {
+    margin-top: 10px;
+}
+
+
+.card-content .view-button {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.card-content .form-control-label,
+.card-content .proceed-button {
+    display: none;
+}
+
+.card-content.expanded .form-control-label,
+.card-content.expanded .proceed-button {
+    display: block;
+}

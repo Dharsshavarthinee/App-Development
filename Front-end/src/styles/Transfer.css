@@ -1,0 +1,41 @@
+.transfer-container {
+  padding: 20px;
+  background-color: #e0f7f4;
+  color: #004d40;
+}
+
+.transfer-paper {
+  padding: 20px;
+}
+
+.transfer-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.transfer-heading {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #004d40;
+}
+
+.form-section {
+  margin-top: 20px;
+}
+
+.transfer-form .MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.pet-details-fieldset {
+  border: 1px solid #004d40;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.pet-details-fieldset legend {
+  color: #004d40;
+}

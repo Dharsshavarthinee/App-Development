@@ -1,0 +1,23 @@
+.login-container {
+  padding: 20px;
+  background-color: #e0f7f4;
+  color: #004d40;
+}
+
+.login-paper {
+  padding: 20px;
+}
+
+.login-heading {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #004d40;
+}
+
+.form-section {
+  margin-top: 20px;
+}
+
+.login-form .MuiTextField-root {
+  margin-bottom: 20px;
+}

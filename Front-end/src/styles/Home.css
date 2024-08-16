@@ -1,0 +1,74 @@
+body {
+  background-color: #e0f7f4;
+}
+
+.home-container {
+  padding: 20px;
+  background-color: #e0f7f4;
+  color: #004d40;
+}
+
+.home-container .MuiTypography-h2 {
+  font-weight: bold;
+  color: #004d40;
+}
+
+.home-container .MuiTypography-h5 {
+  margin-bottom: 20px;
+  color: #004d40;
+}
+
+.home-container .MuiCard-root {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-container .MuiCard-root:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.home-container .MuiCardMedia-root {
+  border-radius: 8px 8px 0 0;
+}
+
+.service-card-content {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.MuiTypography-h6 {
+  color: #004d40;
+}
+
+.MuiTypography-body2 {
+  color: #004d40;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.MuiButton-containedSuccess {
+  background-color: #004d40;
+  color: white;
+}
+
+.MuiButton-containedSuccess:hover {
+  background-color: #00332c;
+}
+
+.safety-assurance-box {
+  margin-bottom: 80px; /* Add space between Safety Assurance box and grid top */
+}
+
+.grid-row {
+  margin-top: 40px; /* Add space between grid rows */
+  margin-bottom: 40px;
+}
+
+.grid-row > .MuiGrid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,67 @@
+.sitting-container {
+    padding: 20px;
+    background-color: #e0f7f4;
+    color: #004d40;
+  }
+  
+  .sitting-paper {
+    padding: 20px;
+  }
+  
+  .sitting-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .sitting-heading {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #004d40;
+  }
+  
+  .request-section, .form-section {
+    margin-top: 20px;
+  }
+  
+  .step {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .step strong {
+    margin-right: 10px;
+  }
+  
+  .request-form-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #004d40;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .request-form .MuiTextField-root {
+    margin-bottom: 20px;
+  }
+  
+  .request-form .MuiButton-containedSuccess {
+    background-color: #004d40;
+    color: white;
+  }
+  
+  .request-form .MuiButton-containedSuccess:hover {
+    background-color: #00332c;
+  }
+  
+  .request-form .MuiButton-containedSuccess:focus {
+    outline: 2px solid #80cbc4;
+  }
+  
+  .MuiAlert-root {
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,64 @@
+.forum-container {
+    padding: 20px;
+    background-color: #e0f7f4;
+    color: #004d40;
+}
+
+.forum-paper {
+    padding: 20px;
+}
+
+.forum-heading {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #004d40;
+}
+
+.form-section {
+    margin-top: 20px;
+}
+
+.form-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #004d40;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.post-form .MuiTextField-root {
+    margin-bottom: 20px;
+}
+
+.posts-section {
+    margin-top: 40px;
+}
+
+.post {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #004d40;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.post .MuiTypography-h5 {
+    color: #004d40;
+    margin-bottom: 10px;
+}
+
+.post .MuiTypography-body1 {
+    margin-top: 10px;
+}
+
+.post .post-image {
+    max-width: 100%;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.post .MuiIconButton-root {
+    margin-right: 10px;
+}

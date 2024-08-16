@@ -1,0 +1,40 @@
+.about-container {
+    padding: 20px;
+    background-color: #e0f7f4;
+    color: #004d40;
+  }
+  
+  .about-paper {
+    padding: 20px;
+  }
+  
+  .about-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .about-heading {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #004d40;
+  }
+  
+  .about-tagline {
+    margin-top: 10px;
+    font-style: italic;
+    color: #004d40;
+  }
+  
+  .section-heading {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #004d40;
+  }
+  
+  .mission-section,
+  .why-choose-us-section {
+    margin-top: 20px;
+  }
+  

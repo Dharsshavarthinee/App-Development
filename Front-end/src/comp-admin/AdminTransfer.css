@@ -1,0 +1,28 @@
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .pet-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .view-button {
+    margin-top: 10px;
+  }
+  
+  .services-heading {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .card-content.expanded .pet-image {
+    max-height: 300px;
+  }
+  

@@ -1,0 +1,66 @@
+body {
+  background-color: #e0f7f4;
+}
+
+.services-container {
+  padding: 20px;
+  background-color: #e0f7f4;
+  color: #004d40;
+}
+
+.services-heading {
+  text-align: center;
+  font-weight: bold;
+  color: #004d40;
+  margin-bottom: 40px;
+}
+
+.service-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay to make text more readable */
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.service-image {
+  flex: 1;
+  max-width: 200px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.service-content {
+  flex: 3;
+}
+
+.service-section .MuiTypography-h4 {
+  color: #fff;
+}
+
+.service-section .MuiTypography-body1 {
+  color: #fff;
+  margin-bottom: 20px; /* Adds space between the text and the button */
+}
+
+.learn-more-button {
+  background-color: #004d40;
+  color: white;
+}
+
+.learn-more-button:hover {
+  background-color: #00332c;
+}

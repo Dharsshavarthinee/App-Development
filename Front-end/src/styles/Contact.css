@@ -1,0 +1,41 @@
+body {
+  background-color: #e0f7f4;
+}
+
+.contact-container {
+  padding: 20px;
+  background-color: #e0f7f4;
+  color: #004d40;
+}
+
+.contact-container .MuiTypography-h2 {
+  font-weight: bold;
+  color: #004d40;
+}
+
+.contact-container .MuiTypography-h5 {
+  margin-bottom: 20px;
+  color: #004d40;
+}
+
+.contact-details {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.contact-details .MuiTypography-h4 {
+  color: #004d40;
+  margin-bottom: 16px;
+}
+
+.contact-details .MuiTypography-body1 {
+  color: #004d40;
+  margin-bottom: 8px;
+}
+
+.contact-details .contact-icon {
+  color: #004d40;
+}

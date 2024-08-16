@@ -1,0 +1,131 @@
+/* General styles */
+body {
+    background-color: #e0f7f4;
+  }
+  
+  /* Admin container */
+  .admin-container {
+    padding: 20px;
+    background-color: #e0f7f4;
+    color: #004d40;
+  }
+  
+  /* Typography */
+  .admin-container .MuiTypography-h3 {
+    font-weight: bold;
+    color: #004d40;
+  }
+  
+  .admin-container .MuiTypography-body1 {
+    margin-bottom: 20px;
+    color: #004d40;
+  }
+  
+  /* Admin sections */
+  .admin-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .admin-section > .MuiGrid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Button styles */
+  .MuiButton-containedSuccess {
+    background-color: #004d40;
+    color: white;
+  }
+  
+  .MuiButton-containedSuccess:hover {
+    background-color: #00332c;
+  }
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #004d40;
+    color: white;
+    margin-bottom: 60px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    height: 90px;
+    margin-right: 5px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav ul li {
+    display: inline;
+  }
+  
+  .nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .nav ul li.active a {
+    font-weight: bold;
+  }
+  
+  .logout-button {
+    background-color: #004d40;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    text-decoration: underline;
+  }
+  
+  .logout-message {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    background-color: #ff5722;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    z-index: 1000;
+    animation: fade-in-out 3s forwards;
+  }
+  
+  @keyframes fade-in-out {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
